@@ -37,7 +37,7 @@ void loop()
       if(temp == -127){
 
          ICSC.send(1, 'P', 10, "z");
-      mySerial.println("Senror fault");
+      mySerial.println("Sensor fault");
         
         }
       
